@@ -1,21 +1,20 @@
 # ZORSIC
 
-Native Android music player foundation built with Kotlin, Jetpack Compose, and AndroidX Media3.
+Native Android music player built with Kotlin, Jetpack Compose, and AndroidX Media3.
 
-## Features in this starter
-- Scan audio files available to the app through Android MediaStore.
-- Search local tracks by title or artist.
-- Play and pause local audio.
-- Previous and next track controls.
-- MediaSessionService foundation for background playback and system media controls.
-- GitHub Actions workflow to build a debug APK.
+## Included
+- Scan local audio through Android MediaStore.
+- Search tracks by title or artist.
+- Play and pause local tracks.
+- Previous and next controls.
+- Background playback foundation using MediaSessionService.
+- GitHub Actions workflow for a debug APK.
 
-## Build APK on GitHub
-1. Upload the contents of this project to the root of your `ZORSIC` repository.
-2. Open the repository's **Actions** tab.
+## Build APK
+1. Push this project to the `main` branch of your GitHub repository.
+2. Open **Actions**.
 3. Select **ZORSIC Android APK**.
-4. Choose **Run workflow** (or push a commit to `main`).
-5. Open the completed workflow run and download `ZORSIC-debug-apk` under **Artifacts**.
+4. Choose **Run workflow** or push a commit.
+5. When the workflow succeeds, download **ZORSIC-debug-apk** from Artifacts.
 
-## Important
-This is an initial local-music-player foundation, not a feature-complete clone of another app. Online catalogues, lyrics providers, playlists, album artwork UI, and a full now-playing screen still need separate implementation. Use music sources that authorize playback and downloads.
+This is an initial local music player foundation. Online music catalogues, lyrics providers, playlists, album artwork, and a full now-playing screen are not included yet.
